@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Chair</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="left" id="chair-img">
+            <img src="./images/chair1.png" class="animate-class" id="chair-image">
+        </div>
+        <div class="container">
+            <div class="chair-name">
+                <h5 class="modern-chair">MODERN CHAIR</h5>
+                <h2 class="chair-name-heading">Telford Kursi</h2>
+                <h3 class="price">$254 <span id="cut-price">$530</span></h3>
+
+            </div>
+            <div class="detail-and-desc">
+                <input class="desc-btn" type="radio" name="Description" id="desc-radio" checked>
+                <label for="desc-radio">Description</label>
+                <input class="desc-btn" type="radio" name="Description" id="details-radio">
+                <label for="details-radio">Details</label>
+            </div>
+            <div class="desc-details" id="descDetails">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Id totam tempora enim officia veritatis hic.
+            </div>
+            <div class="details-chair-btn" id="detailsChairCont">
+                <div class="section-inline">
+                    <p><span>80</span>cm<br />Length</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>65</span>cm<br />Width</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>90</span>cm<br />Height</p>
+                </div>
+                <div class="section-inline">
+                    <p><span>17.6</span>lbs<br />Weight</p>
+                </div>
+            </div>
+            <h3 class="choose-color-heading">Choose Color :</h3>
+            <div class="choose-color-container">
+                <input type="radio" name="color-btn" id="color-1" checked>
+                <label for="color-1" id="color1"></label>
+                <input type="radio" name="color-btn" id="color-2">
+                <label for="color-2" id="color2"></label>
+                <input type="radio" name="color-btn" id="color-3">
+                <label for="color-3" id="color3"></label>
+                <input type="radio" name="color-btn" id="color-4">
+                <label for="color-4" id="color4"></label>
+                <input type="radio" name="color-btn" id="color-5">
+                <label for="color-5" id="color5"></label>
+                <input type="radio" name="color-btn" id="color-6">
+                <label for="color-6" id="color6"></label>
+            </div>
+            <div class="btn-div">
+                <button class="add-to-cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
