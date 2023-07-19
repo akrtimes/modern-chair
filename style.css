@@ -256,3 +256,31 @@
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+
+@media (max-width:600px) {
+    #wrapper{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 40%;
+    }
+    #chair-image{
+        height: 100%;
+    }
+    .container{
+        /* border: 2px solid black; */
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        height: 60%;
+    }
+    .choose-color-container{
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .details-chair-btn{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
